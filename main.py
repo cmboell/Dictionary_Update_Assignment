@@ -55,7 +55,7 @@ def average_scores(scores_dictionary):
 # main where we call our functions
 if __name__ == '__main__':
     the_scores = get_test_scores()
-    print('Average score: ' , average_scores(the_scores))
+    print('Average score: ', average_scores(the_scores))
 
 """
 Tests
@@ -74,5 +74,3 @@ Enter the score:46
 Enter the score:77
 Average score:  45.333333333333336
 """
-
-
