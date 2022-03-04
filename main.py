@@ -48,14 +48,14 @@ def average_scores(scores_dictionary):
         the_sum = the_sum + value
     # math to get average
     average = the_sum / scores_count
-    # return average formatted
-    return f'{average : 5.2f}'
+    # return average
+    return average
 
 
 # main where we call our functions
 if __name__ == '__main__':
     the_scores = get_test_scores()
-    print(average_scores(the_scores))
+    print('Average score: ' , average_scores(the_scores))
 
 """
 Tests
@@ -64,16 +64,15 @@ Enter the number of scores you would like to input (must be at least 1): 0
 Enter the number of scores you would like to input (must be at least 1): 2
 Enter the score:12
 Enter the score:r
-Invalid
-Enter the score:13
- 12.50
-2.)
-Enter the number of scores you would like to input (must be at least 1): 4
-Enter the score:56
-Enter the score:66
-Enter the score:73
+Invalid, enter valid number
 Enter the score:34
- 57.25
+Average score:  23.0
+2.)
+Enter the number of scores you would like to input (must be at least 1): 3
+Enter the score:13
+Enter the score:46
+Enter the score:77
+Average score:  45.333333333333336
 """
 
 
