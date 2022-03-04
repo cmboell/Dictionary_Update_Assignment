@@ -44,8 +44,8 @@ def average_scores(scores_dictionary):
     scores_count = len(scores_dictionary)
     the_sum = 0
     # for loop to add each number to the sum
-    for score in scores_dictionary.values():
-        the_sum = the_sum + score
+    for value in scores_dictionary.values():
+        the_sum = the_sum + value
     # math to get average
     average = the_sum / scores_count
     # return average formatted
